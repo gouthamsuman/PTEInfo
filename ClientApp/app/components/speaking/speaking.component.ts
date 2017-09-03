@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'speaking',
-    template: require('./speaking.component.html')
+    template: './speaking.component.html'
 })
 export class SpeakingComponent {
     

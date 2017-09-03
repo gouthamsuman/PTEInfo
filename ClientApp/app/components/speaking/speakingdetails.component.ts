@@ -2,7 +2,7 @@
 import {ActivatedRoute, Router} from '@angular/router'
 
 @Component({
-    template: require('./speakingdetails.component.html')
+    template: './speakingdetails.component.html'
 })
 export class SpeakingDetailsComponent implements OnInit {
 

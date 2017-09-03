@@ -3,7 +3,7 @@ import { DataService } from '../Data.service'
 
 @Component({
     selector: 'personalintroduction',
-    template: require('./personalintroduction.component.html')
+    template: './personalintroduction.component.html'
 })
 export class PersonalIntroduction {
 

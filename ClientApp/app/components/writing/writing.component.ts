@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'writing',
-    template: require('./writing.component.html')
+    template: './writing.component.html'
 })
 export class WritingComponent {
 

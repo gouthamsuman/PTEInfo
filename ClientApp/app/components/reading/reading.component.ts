@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'reading',
-    template: require('./reading.component.html')
+    template: './reading.component.html'
 })
 export class ReadingComponent {
     

@@ -4,8 +4,8 @@ import { DataService } from '../Data.service'
 
 @Component({
     selector: 'app',
-    template: require('./app.component.html'),
-    styles: [require('./app.component.css')],
+    template: './app.component.html',
+    styles: ['./app.component.css'],
     providers: [DataService]
 })
 export class AppComponent {

@@ -2,7 +2,7 @@
 
 @Component({
     selector: 'listening',
-    template: require('./listening.component.html')
+    template: './listening.component.html'
 })
 export class ListeningComponent {
     
