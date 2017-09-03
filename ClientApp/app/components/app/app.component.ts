@@ -1,9 +1,12 @@
+
 import { Component } from '@angular/core';
+import { DataService } from '../Data.service'
 
 @Component({
     selector: 'app',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css']
+    template: require('./app.component.html'),
+    styles: [require('./app.component.css')],
+    providers: [DataService]
 })
 export class AppComponent {
 }
